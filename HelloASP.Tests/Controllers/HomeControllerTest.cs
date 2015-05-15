@@ -36,7 +36,7 @@ namespace HelloASP.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual(".egap noitpircsed noitacilppa ruoY", result.ViewBag.Message);
+            Assert.AreEqual("yOUR APPLICATION DESCRIPTION PAGE.", result.ViewBag.Message);
         }
 
         [Test]

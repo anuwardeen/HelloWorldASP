@@ -115,8 +115,9 @@
       <Private>True</Private>
       <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="ThingDoer">
-      <HintPath>..\packages\ThingDoer.0.0.4\lib\net45\ThingDoer.dll</HintPath>
+    <Reference Include="ThingDoer, Version=0.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ThingDoer.0.0.6\lib\net45\ThingDoer.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>

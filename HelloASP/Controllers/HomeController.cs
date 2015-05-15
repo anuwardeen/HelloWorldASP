@@ -16,7 +16,7 @@ namespace HelloASP.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.".ReverseThing();
+            ViewBag.Message = "Your application description page.".SwapCase();
 
             return View();
         }
